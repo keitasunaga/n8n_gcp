@@ -1,0 +1,12 @@
+# データディレクトリ（機密情報・ログ・バックアップを除外）
+docker-compose/postgres-data/
+docker-compose/n8n-data/
+docker-compose/backups/
+health-check.log
+lost+found/
+
+# 機密情報
+docker-compose/.env
+
+# ログファイル
+*.log
